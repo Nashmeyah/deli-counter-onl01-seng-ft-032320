@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.length > 0
     line_number = 1
     katz_deli.each do |name|
-    return "The line is currently: #{name[line_number]}"
+    return "The line is currently: #{line_number}. #{name}"
     line_number +=1
     end
   elsif
