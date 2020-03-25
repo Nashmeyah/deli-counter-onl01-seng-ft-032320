@@ -6,7 +6,7 @@ def line(katz_deli)
     katz_deli.each do |name|
     return "The line is currently: #{name[line_number]}"
     line_number +=1
-  end
+    end
   elsif
     "The line is currently empty."
 end
