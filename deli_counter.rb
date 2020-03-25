@@ -8,6 +8,7 @@ def line(katz_deli)
       string += ": #{line_number}. #{name}"
       line_number +=1
     end
+    return string
   else
     "The line is currently empty."
     end
