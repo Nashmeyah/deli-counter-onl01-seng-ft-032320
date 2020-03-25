@@ -3,7 +3,7 @@ katz_deli =[]
 def line(katz_deli)
   if katz_deli.length > 0
     line_number = 1
-    string = "The line is currently"
+    string = "The line is currently:"
     katz_deli.each do |name|
       string += "#{line_number}. #{name}"
       line_number +=1
