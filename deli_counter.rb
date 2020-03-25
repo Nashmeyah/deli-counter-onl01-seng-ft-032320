@@ -7,12 +7,12 @@ def line(katz_deli)
     return "The line is currently: #{name[line_number]}"
     line_number +=1
   end
-  elsif 
+  elsif
     "The line is currently empty."
 end
 
 def take_a_number(katz_deli, name)
-  
+
 end
 
 def now_serving
